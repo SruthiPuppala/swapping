@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int x, y;
-printf("Input value for x & y: \n");
-scanf("%d%d",&x,&y);
+int x=7, y=3;
+
 printf("Before swapping the value of x & y: %d %d",x,y);
 x=x+y;
 y=x-y;
